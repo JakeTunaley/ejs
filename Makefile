@@ -1,6 +1,6 @@
 
 SRC = $(shell find lib -name "*.js" -type f)
-UGLIFY_FLAGS = --no-mangle 
+UGLIFY_FLAGS =
 
 all: ejs.min.js
 
